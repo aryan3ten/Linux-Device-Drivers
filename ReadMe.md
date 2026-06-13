@@ -97,17 +97,17 @@ This will enable use to perform read and write operations on our driver through 
 
 ### **High Level View** 
 sudo isnmod ldd.ko 
-      V
+      >
 Kernel calls the pyjama_module_init
-      V
+      >
 proc entry created 
-      V
+      >
 registers read on proc entry = pyjama_read
-      V
+      >
 proc entry read through python 
-      V
+      >
 pyjama_read invoked
-      V
+      >
 pyjama_read copies "Ack!\n" from internal kernel memory to the Python Program (Userspace)
       V
 Acknoledgement sent to the kernel that the message's 5 bytes were copied
