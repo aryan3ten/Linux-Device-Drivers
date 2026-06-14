@@ -1,7 +1,7 @@
 # Linux Device Driver 
 
 ## This project is a basic bare minimum implementation of a Linux Device Driver. This was undertaken as a learning endeavor out of sheer passion and curiousity. 
-## A big thanks to @streetdogg for providing the highly accessible and educational tutorial for this.
+## A big thanks to [@streetdogg](https://github.com/streetdogg) for providing the highly accessible and educational tutorial for this.
 Link to the tutorial: [Youtube Link](https://www.youtube.com/watch?v=iSiyDHobXHA&list=PL5GvAOFapTkEZ5OV1cMpPENV7W5gfrCt0&index=25&t=17849s)
 
 ### **The Setup**
@@ -109,9 +109,9 @@ proc entry read through python
 pyjama_read invoked
       >
 pyjama_read copies "Ack!\n" from internal kernel memory to the Python Program (Userspace)
-      V
+      >
 Acknoledgement sent to the kernel that the message's 5 bytes were copied
-      V
+      >
 0 returned to signal End Of File
 
 
